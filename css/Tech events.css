@@ -115,4 +115,12 @@ h1{
     html{
         font-size:50%;
     }
+    .nav a{
+        display: flex;
+        background:#101010 ;
+        border-radius: .5rem;
+        padding:1.3rem;
+        margin:1.3rem;
+        font-size: 2rem;
+    }
 }
