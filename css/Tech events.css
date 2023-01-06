@@ -77,4 +77,39 @@ h1{
 
 
 
-
+@media  (max-width:450px){
+    html{
+        scroll-behavior: smooth;
+    }
+    nav{
+        width: 100%;
+        background: #101010;
+        overflow:hidden;
+        position: fixed;
+        padding: 5px;
+        top:0;
+    }
+    nav a{
+        padding: 5px;
+        width: 50px;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    ul{
+        padding: 5px;
+        margin: 5px;
+        list-style: none;
+    }
+    li{
+        float: left;
+        padding : 0 10px 0 9px;
+    }  
+    h1{
+        margin: 70px;
+        text-align: center;
+        padding: 0;
+        color: #fff;
+    } 
+}
