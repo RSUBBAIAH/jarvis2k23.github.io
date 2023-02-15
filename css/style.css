@@ -62,14 +62,14 @@ section{
     padding:.8rem 3rem;
     font-size: 1.7rem;
     border-radius: .5rem;
-    background: #101010  ;
+    background:#d7be69  ;
     color:#fff;
     cursor: pointer;
     font-weight: 600;
 }
 
 .btn:hover{
-    background:var(--main-color);
+    background:#101010;
 }
 
 .header{
