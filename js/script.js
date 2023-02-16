@@ -42,7 +42,7 @@ var swiper = new Swiper(".home-slider", {
   },
   loop:true,
   autoplay:{
-    delay: 500,
+    delay: 1000,
     disableOnInteraction:false,
   }
 });
