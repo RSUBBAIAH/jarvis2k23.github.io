@@ -40,10 +40,10 @@ var swiper = new Swiper(".home-slider", {
     modifier: 2,
     slideShadows: true,
   },
-  loop:true,
+  loop:false,
   autoplay:{
     delay: 1000,
-    disableOnInteraction:false,
+    disableOnInteraction:true,
   }
 });
 
@@ -65,7 +65,7 @@ var swiper = new Swiper(".review-slider", {
     },
     autoplay:{
       delay: 2000,
-      disableOnInteraction:false,
+      disableOnInteraction:true,
   }
 });
 
